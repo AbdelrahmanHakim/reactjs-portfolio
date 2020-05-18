@@ -15,6 +15,7 @@ go to targeted directory
 run the following commands:
 
 npm i 
+
 npm start
 
 ### `npm start`
