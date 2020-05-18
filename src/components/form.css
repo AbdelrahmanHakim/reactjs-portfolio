@@ -1,0 +1,90 @@
+.projects{
+    padding-top: 2%;
+    margin-left: 0%;
+
+}
+
+.form-heading h2{
+    margin-left: 3%;
+    color: black;
+    font-family: "Bangers";
+    letter-spacing: 1px ;
+}
+
+.form{
+    margin-left: 25%;
+
+}
+
+.form input{
+    width: 200px;
+    height: 30px;
+    padding:3px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.form textarea{
+    margin-top: 5px;
+    width: 205px;
+    height: 150px;
+}
+
+.form button{
+    margin-left: 19%;    
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: 2px solid #0074d9;
+    padding: 0.45rem 0.8rem;
+    display: inline-block;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    font-size: 0.8rem;
+    background:  #0074d9;
+    color: #fff;
+    border-color: #fff;
+    margin-bottom: 30px;
+}
+
+.form button:hover{
+    background: transparent;
+    color:  #0074d9
+}
+
+@media only screen and (min-width: 920px) {
+    .form{
+        margin-left: 35%;
+    
+    }
+    
+    .form input{
+        width: 500px;
+        height: 30px;
+        padding:3px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    
+    .form textarea{
+        margin-top: 5px;
+        width: 505px;
+        height: 150px;
+    }
+    
+    .form button{
+        margin-left: 0%;   
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        border: 2px solid #0074d9;
+        padding: 0.45rem 0.8rem;
+        display: inline-block;
+        transition: all 0.3s linear;
+        cursor: pointer;
+        font-size: 0.8rem;
+        background:  #0074d9;
+        color: #fff;
+        border-color: #fff;
+        margin-bottom: 30px;
+    }
+    
+  }

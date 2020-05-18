@@ -1,0 +1,58 @@
+header{
+    background-color: black;
+    padding: 1px;
+    height: 70px;
+}
+
+
+.logo{
+    float: left;
+    text-decoration: none;
+    position: absolute;
+    
+
+}
+
+ h3{
+    margin-top: 0px;
+    font-family: "Bangers";
+    letter-spacing: 1px;
+    float: left;
+
+}
+h3 a{
+
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+li{
+    list-style-type: none;
+    display: inline; 
+    padding-left: 7px;
+}
+
+
+li a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+
+
+.nav-links{
+    display: inline-block;
+    margin-left: 45%;
+}
+
+li :hover{
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 920px) {
+    .nav-links{
+        display: inline-block;
+        margin-left: 80%;
+    }
+  }

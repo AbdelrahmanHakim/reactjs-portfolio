@@ -1,0 +1,43 @@
+.btn {
+    margin-left: 35%;    
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: 2px solid #0074d9;
+    padding: 0.45rem 0.8rem;
+    display: inline-block;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    font-size: 0.8rem;
+    background:  #0074d9;
+    color: #fff;
+    border-color: #fff;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background: transparent;
+    color:  #0074d9
+}
+
+@media only screen and (min-width: 920px) {
+ 
+    
+    .btn {
+        margin-left: 46%;    
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        border: 2px solid #0074d9;
+        padding: 0.45rem 0.8rem;
+        display: inline-block;
+        transition: all 0.3s linear;
+        cursor: pointer;
+        font-size: 0.8rem;
+        background:  #0074d9;
+        color: #fff;
+        border-color: #fff;
+        margin-bottom: 30px;
+        text-decoration: none;
+    }
+    
+  }
